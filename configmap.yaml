@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: sampleapp-config
+data:
+  application.properties: |
+    server.port=8080
+    database.url=jdbc:mysql://ce-aa-psql.postgres.database.azure.com:5432/postgres
+    database.username=ktds
+    database.password=Ktds!1234
